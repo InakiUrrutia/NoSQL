@@ -1,0 +1,18 @@
+dans /Home/iurrutia
+
+Pour lancer le serveur
+
+./mongod --dbpath=/Home/iurrutia/data/db
+
+Pour lancer le client
+
+./mongo
+
+Pour eteindre le serveur
+
+use admin
+db.shutdownServer()
+
+Creer une DB
+
+use <nomDB>
